@@ -1,6 +1,4 @@
-/*
-* multi-line comment
-*/
+
 p{ line-height: 1em; }
 h1, h2, h3, h4{
     color: rgb(0, 0, 0);
@@ -17,18 +15,18 @@ a{
 	a:hover,
 	a:active{ text-decoration: underline; }
 
-/* you can structure your code's white space so that it is as readable for when you come back in the future or for other people to read and edit quickly */
+
 
 body{
 	font-family: arial; 
 	font-size: 80%; 
 	line-height: 1.2em; 
 	width: 100%; 
-	margin: 0; b
-	ackground: #eee;
+	margin: 0; 
+	background: #eee;
 }
 
-#page{ margin: 20px; }
+#page{ margin: 30px; }
 
 
 #logo{
@@ -36,6 +34,8 @@ body{
 	margin-top: 5px;
 	font-family: georgia;
 	display: inline-block;
+	font-size: 200%;
+
 }
 
 #nav{
@@ -62,9 +62,11 @@ body{
 
 #content{
 	margin: 30px 0;
-	background: white;
+	background: rgb(177, 177, 177);
 	padding: 20px;
 	clear: both;
+	
+
 }
 #footer{
 	border-bottom: 1px #ccc solid;
@@ -79,4 +81,13 @@ body{
 
 /* multiple styles seperated by a , */
 #content,
-ul li a{ box-shadow: 0px 1px 1px #999; }
+ul li a{ box-shadow: 2px 4px 3px rgb(66, 66, 66); }
+
+
+.headerimg {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	
+	
+  }
